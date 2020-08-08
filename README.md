@@ -1,2 +1,2 @@
-# weiting180.github.io
-My website
+# My website
+[Link](weiting180.github.io)
