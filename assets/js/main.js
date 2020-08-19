@@ -125,6 +125,10 @@
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
+
+    $('.progress .progress-bar-100').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
   }, {
     offset: '80%'
   });
