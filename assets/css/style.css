@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   -webkit-text-align-last: center;
   text-align-last: center;
+  text-align-last: -webkit-center;
   font-family: "Poppins", sans-serif;
 }
 
