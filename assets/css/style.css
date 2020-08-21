@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 220px;
   border: 8px solid #2c2f3f;
 }
 
@@ -96,17 +96,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 10px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s;
 }
 
@@ -117,15 +117,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-right: 300px;
 }
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    right: -300px;
   }
   #main {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -152,15 +152,15 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
-  margin-bottom: 8px;
+  padding: 8px 24px;
+  margin-bottom: 4px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .nav-menu a i {
   font-size: 24px;
-  padding-right: 8px;
+  padding-right: 16px;
   color: #6f7180;
 }
 
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active #header {
-  left: 0;
+  right: 0;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -238,6 +238,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#hero h2 {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 56px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Poppins", sans-serif;
 }
 
 #hero p {
@@ -245,6 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #hero p span {
@@ -429,8 +441,30 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #00aeff;
+  background-color: #02A5F0;
 }
+
+.skills .progress-bar-90 {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #65C4F0;
+}
+
+.skills .progress-bar-75 {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #8ED4F5;
+}
+
+.skills .progress-bar-60 {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #b3e7ff;
+}
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -1150,7 +1184,7 @@ section {
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;

@@ -129,6 +129,18 @@
     $('.progress .progress-bar-100').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
+
+    $('.progress .progress-bar-90').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+
+    $('.progress .progress-bar-75').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+
+    $('.progress .progress-bar-60').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
   }, {
     offset: '80%'
   });
