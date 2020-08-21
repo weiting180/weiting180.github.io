@@ -82,13 +82,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .profile h1 {
   font-size: 24px;
+  display: block;
   margin: 0;
   padding: 0;
   font-weight: 600;
   -moz-text-align-last: center;
+  -webkit-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
-  display: block;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
