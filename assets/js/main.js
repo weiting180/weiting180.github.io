@@ -134,7 +134,7 @@
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
 
-    $('.progress .progress-bar-75').each(function() {
+    $('.progress .progress-bar-80').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
 
